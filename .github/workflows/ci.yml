@@ -6,7 +6,7 @@ on:
       - main  # veya default branch hangisiyse
 
 env:
-  IMAGE_NAME: ars02bahadr/CI-CD  # Docker Hub kullanıcı adın + repo adı
+  IMAGE_NAME: ars02bahadr/ci-cd  # Docker Hub kullanıcı adın + repo adı
   TAG: latest
 
 jobs:

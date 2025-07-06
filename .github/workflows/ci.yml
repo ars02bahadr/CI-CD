@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+# 🔐 GitHub Actions botuna push yetkisi veriyoruz
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest

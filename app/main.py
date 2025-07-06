@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/hello")
 def hello():
-    return {"message": "Merhaba ArgoCd,Github Actions,Docker,Kubernetes!"}
+    return {"message": "Merhaba ArgoCd,Github Actions,Docker,Kubernetes"}

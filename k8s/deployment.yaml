@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi-container
-          image: bahadir02ars/ci-cd:dfe3ceb0206fd2ec42427869bee62f6c9d027f92
+          image: bahadir02ars/ci-cd:05d9ee03514d99ede860e49b457d7263f22cd012
           imagePullPolicy: Always
           ports:
             - containerPort: 8000

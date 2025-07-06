@@ -22,7 +22,7 @@ jobs:
       - name: DockerHub Giriş
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Docker Image Oluştur ve Push Et
